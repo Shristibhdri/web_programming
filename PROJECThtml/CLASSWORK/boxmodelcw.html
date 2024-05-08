@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise - Box Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+      
+
+      .same-line {
+        display: inline-block;
+        background-color: red;
+        width: 5%;
+        padding: 30px;
+        white-space: nowrap;
+      }
+      .another-level {
+        display: inline-block;
+        background-color: rgb(231, 156, 35);
+        width: 20%;
+        padding: 30px;
+        white-space: nowrap;
+      }
+      .other-level {
+        display: inline-block;
+        background-color: blue;
+        width: 35%;
+        padding: 30px;
+        white-space: nowrap;
+      }
+      .box1{
+        display: inline-block;
+        background-color: red;
+        width: 5%;
+        padding: 30px;
+        text-align:right;
+        white-space: nowrap; 
+        margin:15px;
+       border: 5px solid black;
+      }
+      .box2{
+        display: inline-block;
+        background-color: rgb(231, 156, 35);
+        width: 30%;
+        text-align: center;
+        padding: 30px;
+        white-space: nowrap;
+        margin:15px;
+        
+      }
+      .box3{
+        display: inline-block;
+        background-color: blue;
+        width: 35%;
+        padding: 30px;
+        height: 10px;
+        white-space: nowrap; 
+        margin:5px;
+        border: 5px solid black;
+      }
+
+
+     
+
+
+      /* YOUR STYLES GO HERE */
+    
+    </style>
+  </head>
+  <body>
+    <h2 class="exercise-title">Exercise 1: Inline-block</h2>
+    <p>Add CSS code to make your boxes look about the same as in image below. Use <strong>display: inline-block;</strong> to set them to go next to each another.</p>
+    <p>Hint 2: Remember to set the width and height for the boxes for them to show up.</p>
+    <p>Hint 3: To force the inline-blocks to always be on the same level, you can use <strong>white-space: nowrap</strong></p>
+    <img src="ex1.jpg" class="exercise-image" alt="Exercise 1 - Image" />
+
+    <br /><br />
+    <div class="answer-container-1">
+      <h2>Answer for exercise 1:</h2>
+    <div class="same-line"></div>
+    <div class="another-level"></div>
+      <div class="other-level"></div>
+    </div>
+    </div>
+
+    <h2 class="exercise-title">Exercise 2: Padding, Margin, Border, Color, Text-Align</h2>
+    <p>Add CSS code to make your boxes look about the same as in image below.</p>
+    <img src="ex2.jpg" alt="Exercise 2 - Image" />
+
+    <br /><br />
+    <div class="answer-container-2">
+      <h2>Answer for exercise 2:</h2>
+      <div class="box1">Hey</div>
+      <div class="box2">Hey</div>
+      <div class="box3">Hey</div>
+    </div>
+  </body>
+</html>

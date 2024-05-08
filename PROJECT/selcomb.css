@@ -1,0 +1,64 @@
+/* SELECTORS */
+
+/* 1. Universal Selector */
+* {
+    border-radius: 5px;
+}
+
+/* 2. Type Selector */
+h2 {
+    font-size: 30px;
+    color: red;
+    
+}
+
+/* 3. Class Selector */
+.form-contact-me {
+    background: orange;
+}
+
+/* 4. ID Selector */
+#first-block {
+    color: violet;
+}
+
+/* 5. Attribute Selector */
+input[type="email"] {
+    padding: 20px;
+}
+
+/* Grouping the selectors */
+p, h2 {
+    background-color: black;
+}
+
+
+
+/* COMBINATORS */
+
+/* 1. Descendant combinator */
+/* Targets all elements inside the parent element  */
+main div section p{
+    color: violet;
+}
+
+/* 2. Child combinators*/
+/* Targets only elements directly under the parent element*/
+main > div.content-block > section#first-block > p {
+    color: orange;
+}
+
+/* 3. Adjacent Sibling Combinator */
+/* Targets all elements that are in the same level and come
+directly after the specified element. */
+p + label { color: red; }
+
+/* 4. General Sibling Combinator */
+/* Targets all elements after the first element on the same level even if they do not come directly after the first element*/
+p ~ label { color: blue;
+}
+
+/* Grouping the Combinators */
+p, main, main > div{
+color: green;
+}

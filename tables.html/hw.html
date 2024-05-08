@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FPGA table</title>
+        <meta name="description" content="A small table">
+        <style>
+            table, th, td {
+                border:3px solid black;
+            }
+            th, td {
+                text-align: center;
+            }
+            tfoot tr td:nth-child(2), tfoot tr td:nth-child(3){
+                border-color: red;
+                color: red;
+            }
+            tfoot tr td:first-of-type {
+                border-color: blue;
+                color: green;
+
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <table style="width:100%; border:0.5px solid black">
+            <thead>
+                <tr>
+                    <th>Field-programmable gate array</th>
+                    <th>Manufracturing Process name</th>
+                    <th>Year</th>
+                    <th>Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Virtex: Spartan-II</td>
+                    <td>20nm</td>
+                    <td>2000</td>
+                    <td>123,86€</td>
+                </tr>
+                <tr>
+                    <td>Virtex UltraScale+ HBM</td>
+                    <td>16nm</td>
+                    <td>2016</td>
+                    <td>10660,91€</td>
+                </tr>
+                <tr>
+                    <td>Zynq UltraScale+ RFSoC</td>
+                    <td>16nm</td>
+                    <td>2017</td>
+                    <td>29631,07€</td>
+                </tr>
+                <tr>
+                    <td>Versal AI Core</td>
+                    <td>7nm</td>
+                    <td>2019</td>
+                    <td>13035,34€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Average</td>
+                    <td>Not Applicable</td>
+                    <td>Not Applicable</td>
+                    <td>13362,8€</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

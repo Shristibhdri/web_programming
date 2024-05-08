@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FPGA table</title>
+        <meta name="description" content="A small table">
+
+        <style>
+            body {background-color: orange;}
+            form{color: gold; background-color: rgba(0,0,0,0.4); padding: 20px;}
+            form input {color: blueviolet; background-color: coral;}
+            ::placeholder {color: yellow; opacity: 1;}
+            h2, h4 {color: rebeccapurple;}
+        </style>
+    </head>
+
+    <body>
+
+        <h2>High performance computing enciclopedia</h2>
+        <h4>FPGA</h4>
+
+        <form >
+
+            <fieldset>
+                <legend>Process name:</legend>
+                <input type="radio" name="manufacturing-process" id="200nm" value="200nm" /><label for="200nm">200nm</label>
+                <input type="radio" name="manufacturing-process" id="Intel-5" value="Intel-5" /><label for="Intel-5">Intel 5</label>
+                <input type="radio" name="manufacturing-process" id="finfet-4-nm" value="finfet-4-nm" /><label for="finfet-4-nm">TSMC finfet 4 nm</label>
+            </fieldset>
+           
+        </form>
+    </body>
+</html>
+
+
+Answer 1
+
+Code:
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FPGA table</title>
+        <meta name="description" content="A small table">
+
+        <style>
+            body {background-color: orange;}
+            form{color: gold; background-color: rgba(0,0,0,0.4); padding: 20px;}
+            form input {color: blueviolet; background-color: coral;}
+            ::placeholder {color: yellow; opacity: 1;}
+            h2, h4 {color: rebeccapurple;}
+        </style>
+    </head>
+
+    <body>
+
+        <h2>High performance computing enciclopedia</h2>
+        <h4>FPGA</h4>
+
+        <form >
+
+            <fieldset>
+                <legend>Process name (select all that apply):</legend>
+                <input type="checkbox" name="manufacturing-process" id="200nm" value="200nm" /><label for="200nm">200nm</label>
+                <input type="checkbox" name="manufacturing-process" id="Intel-5" value="Intel-5" /><label for="Intel-5">Intel 5</label>
+                <input type="checkbox" name="manufacturing-process" id="finfet-4-nm" value="finfet-4-nm" /><label for="finfet-4-nm">TSMC finfet 4 nm</label>
+           </fieldset>
+           
+        </form>
+    </body>
+</html>
+
+
+Answer 2
+code:
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FPGA table</title>
+        <meta name="description" content="A small table">
+
+        <style>
+            body {background-color: orange;}
+            form{color: gold; background-color: rgba(0,0,0,0.4); padding: 20px;}
+            form input {color: blueviolet; background-color: coral;}
+            ::placeholder {color: yellow; opacity: 1;}
+            h2, h4 {color: rebeccapurple;}
+        </style>
+    </head>
+
+    <body>
+
+        <h2>High performance computing enciclopedia</h2>
+        <h4>FPGA</h4>
+
+        <form >
+
+            <label for="manufacturing-process">Process name: </label>
+            <select id="manufacturing-process" name="manufacturing-process">
+                <option value="cheap">200nm</option>
+                <option value="moderate">Intel 5</option>
+                <option value="expensive">TSMC finfet 4 nm</option>
+            </select>
+           
+        </form>
+    </body>
+</html>
+
+

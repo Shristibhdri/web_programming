@@ -1,0 +1,41 @@
+.text-red{
+
+    color: red;
+    font-size: 40px;
+}
+#second{
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+body .short-box{
+    background: orange;
+    width: 200px;
+    width: 32%;
+    display: inline-block;
+}
+.short-box{
+    color: turquoise;
+
+}
+.alert {
+    margin: 20px;
+    background: rgb(221, 122, 122);
+    color: rgb(84, 8, 8);
+    padding: 20px;
+    border-radius: 4px;
+    border-top: 5px solid rgb(75, 10, 10);
+    border: 3px solid rgba(51, 3, 3, 0.13);
+
+}
+
+.alert .alert-title {
+    font-weight: bold;
+}
+.alert-info {
+    background: rgb(84, 84, 190);
+    color: rgb(22, 22, 103);
+    border: 3px solid rgb(26, 26, 146, 0.068);
+}

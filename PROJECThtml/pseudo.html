@@ -1,0 +1,37 @@
+ <style>
+    button {
+        background:blue;
+        color: white;
+        transition: 0.7s all ease;
+    }
+    /* :hover, :focus, :active, :disabled */
+    button:hover {
+        background: red;
+        color: blue;
+        padding: 20px;
+    }
+    a, a:visited {
+        color: red;
+        transition: 0.2s all ease;
+    }
+    
+    a:hover{
+        color: violet;
+    }
+    /* ::first-letter */
+    ul li::first-letter{
+        font-size:30px;
+        font-weight: bold;
+    }
+
+ </style>
+
+ <body>
+    <button>Click me</button>
+
+    <a href="'#">Frontpage</a>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+ </body>

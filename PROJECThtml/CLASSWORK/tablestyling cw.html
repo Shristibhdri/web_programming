@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+        font-family: 'Inter', sans-serif;
+        background-color: #101010;
+        color: white;
+        margin: 0;
+        padding: 20px;
+        font-size: 14px;
+        }
+
+        table, th, td{
+            padding: 20px;
+            font-size: 8px;
+            border-collapse: collapse;
+            border: none;
+            
+        }
+
+        td{
+            background-color: rgb(31, 30, 30);   
+        }
+        .btn-primary{
+            background-color: green;
+            border-radius: 4px;
+            border: 0;
+            color:white;
+            font-size: xx-small;
+            }
+        .btn-filter.active{
+            background-color: green;
+            border-radius: 3px;
+            border: 0;
+            color:white;
+            font-size: xx-small;
+            padding: 6px;
+        }
+        th{
+            color:  rgb(85, 81, 81); 
+            
+        }
+        .btn-filter{
+            background-color: rgb(68, 65, 65);
+            color: white;
+            border: 0;
+            font-size: xx-small;
+            padding: 6px;
+            border-radius: 5px;
+        }
+        .input-search{
+            background-color: rgb(68, 65, 65);
+            color: white;
+            border: 0;
+            font-size: xx-small;
+            padding: 6px;
+            border-radius: 5px;
+        }
+        h1,p{
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+       
+        /* Your styles go here */
+
+        /* Styles end here */
+    </style>
+
+</head>
+<body>
+    <header>
+       
+        <h1>NFT Paradise</h1>
+        <p>Trade your favorite, totally legit NFTs. Totally legit exchange.</p>
+        
+    </header>
+    <section class="filters">
+        <input type="search" class="input-search" name="searchRequests" placeholder="Search">
+        <button class="btn btn-filter active">All</button>
+        <button class="btn btn-filter">Sent</button>
+        <button class="btn btn-filter">Offers</button>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Trade ID.</th>
+                <th>Date and Time</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Due Date</th>
+                <th>User</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>151235123</td>
+                <td>16 Hours Ago</td>
+                <td>Finland</td>
+                <td>Sweden</td>
+                <td>2 days</td>
+                <td>John Smith</td>
+                <td><span class="badge"><b>4</b> Offers</span></td>
+                <td><button class="btn btn-primary">Open</button></td>
+            </tr>
+            <tr>
+                <td>7512623</td>
+                <td>3 Hours Ago</td>
+                <td>United States</td>
+                <td>Norway</td>
+                <td>1 day</td>
+                <td>Anna Annie</td>
+                <td><span class="badge"><b>4</b> Offers</span></td>
+                <td><button class="btn btn-primary">Open</button></td>
+            </tr>
+            <tr>
+                <td>5127349</td>
+                <td>30 Hours Ago</td>
+                <td>Norway</td>
+                <td>Sweden</td>
+                <td>8 days</td>
+                <td>John Smith</td>
+                <td><span class="badge"><b>4</b> Offers</span></td>
+                <td><button class="btn btn-primary">Open</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>

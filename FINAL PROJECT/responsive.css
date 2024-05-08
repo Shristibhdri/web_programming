@@ -1,0 +1,53 @@
+/* Your responsive design styles for the 400px resolution go here */
+
+@media screen and (max-width: 400px){
+    .section_2.part_2{
+        width: 100% !important;
+        display: block;
+    }
+    P{
+        text-align: center;
+    }
+    .name{
+        position: relative;
+        right: 25px;
+    }
+
+    .btn_2{
+        position: relative;
+        right: 20px;
+        margin-bottom: 10px;
+        /* padding: -105px; */
+    }
+
+    .box{
+        padding-bottom: 15px;
+    }
+
+    .para_5{
+       font-size: 0.3rem;
+
+    }
+
+    .section_2{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main_content{
+        text-align: center;
+        position: relative;
+        right: 30px;
+        width: 65%;
+        padding-bottom: 20px;
+    }
+
+    .globe_2{
+        position: relative;
+        left: 20px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+}
